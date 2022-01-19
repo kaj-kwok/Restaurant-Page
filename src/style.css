@@ -19,13 +19,24 @@ body {
 }
 
 .header_logo{
-    width: 7%;
+    width: 100px;
 }
 
 .header_text {
     font-size: larger;
     font-family: 'MyFont';
     margin: 10px;
+}
+
+.nav_bar ul {
+    display:flex;
+    justify-content: end;
+    gap: 10px;
+
+}
+
+.nav_bar ul li {
+    color: black;
 }
 
 /* home page */
@@ -67,6 +78,9 @@ ul li {
     height: 400px;
     width: 50%;
 }
+
+
+/* footer CSS */
 
 .footer_bg {
     width: 100vw;
