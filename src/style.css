@@ -67,3 +67,17 @@ ul li {
     height: 400px;
     width: 50%;
 }
+
+.footer_bg {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(0,0,0,0.8);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo{
+    width:75px;
+    height:75px;
+}

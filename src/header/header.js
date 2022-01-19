@@ -18,4 +18,23 @@ function displayHeader(text) {
     return header;
 }
 
-export default displayHeader;
+function displayFooter() {
+    const footer = document.createElement("div");
+    footer.classList.add("footer_bg")
+    const footerLogo = document.createElement("img");
+    footerLogo.src = headerImg
+    footerLogo.classList.add("footer_logo")
+    footer.appendChild(footerLogo)
+    const footer_text = document.createElement("div")
+    footer_text.innerHTML = `<ul>
+    <li>604.000.0000</li>
+    <li>1234 Main St</li>
+    <li>Vancouver, BC</li>
+    </ul>
+     `
+    footer.appendChild(footer_text)
+     
+     return footer
+}
+
+export {displayFooter, displayHeader};
