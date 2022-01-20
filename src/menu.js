@@ -48,6 +48,7 @@ const currentMenu = [
 ]
 
 function menu_wrapper() {
+    document.querySelector('#main_content').textContent = ""
     const menucontainer = document.createElement("div")
     menucontainer.classList.add("menu__container")
     currentMenu.forEach((item) => {

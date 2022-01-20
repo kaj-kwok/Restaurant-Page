@@ -4,6 +4,7 @@ import chefPic from "../images/chef.jpg";
 
 
 function createHome(){
+document.querySelector('#main_content').textContent = ""
 const homeWrapper = document.createElement("div")
 homeWrapper.classList.add('home_wrapper')
 const hero = document.createElement("img")
